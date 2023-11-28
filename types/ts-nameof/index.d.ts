@@ -6,7 +6,7 @@
  * @example nameof<MyNamespace.MyInnerInterface>() -> "MyInnerInterface"
  * @example nameof<MyInterface>(o => o.prop) -> "prop"
  *
- * @param func An optional function for which the last identifier of the expression will be parsed.
+ * @param func - An optional function for which the last identifier of the expression will be parsed.
  */
 // eslint-disable-next-line @definitelytyped/no-unnecessary-generics
 declare function nameof<T>(func?: (obj: T) => any): string;
